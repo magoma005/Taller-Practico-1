@@ -46,15 +46,9 @@ src/
 
 ## 💻 **Cómo ejecutar**
 
-1. **Clona el repositorio:**
+1. **Abre el proyecto en IntelliJ IDEA o NetBeans.**
 
-git clone https://github.com/tuusuario/mascotas-poo-java.git
-cd mascotas-poo-java
-
-
-2. **Abre el proyecto en IntelliJ IDEA o NetBeans.**
-
-3. Ejecuta la clase `Main.java`.
+2. Ejecuta la clase `Main.java`.
 
 ---
 

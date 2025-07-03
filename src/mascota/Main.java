@@ -12,6 +12,12 @@ public class Main {
     }
 }
 
+//Preguntas para reflexion:
+
 //¿Qué pasa si se envía una clase que no hereda de Mascota? No compliaria, porque solo acepta metoodos de tipo Mascota
-//¿Cómo se comporta si eliminas el instanceof y casteas directamente? Al castearlo directamente sin verificacion es peligroso, genera ClassCastException si el objeto no es de ese tipo, depende del tipo de objeto, si m es un perro, bien, si m es un gato genera un error.
-//HolaMigue
+//¿Cómo se comporta si eliminas el instanceof y casteas directamente? En resumen el compilador permite el casteo si hay relación de herencia, pero en runtime, si no es realmente de ese tipo, Java lanza un ClassCastException.
+
+//Preguntas para cierre:
+//¿Qué modificadores son accesibles desde una subclase en otro paquete? Protected y Public.
+//¿Qué modificadores permiten acceder desde cualquier clase del mismo paquete? Public, Protected, Default.
+//¿Qué pasaría si todos los atributos fueran public? Serian accesibles desde cualquier clase en cualquier paquete.

@@ -2,7 +2,7 @@ package mascota;
 
 public class ClinicaVeterinaria {
     public void recibirMascota(Mascota m) {
-        System.out.println("Recibiendo a: " + m.nombre);
+        System.out.println("Recibiendo a: " + m.nombrePublico);
         m.saludar();
 
         if (m instanceof Perro) { //si es un perro
